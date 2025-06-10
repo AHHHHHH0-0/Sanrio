@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DFFADFA32DF8051B005F768F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFADF892DF80519005F768F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFADF902DF80519005F768F;
+			remoteInfo = SanrioCharacterApp;
+		};
+		DFFADFAD2DF8051B005F768F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFADF892DF80519005F768F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFADF902DF80519005F768F;
+			remoteInfo = SanrioCharacterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFFADF912DF80519005F768F /* SanrioCharacterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanrioCharacterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFADFA22DF8051B005F768F /* SanrioCharacterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanrioCharacterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFADFAC2DF8051B005F768F /* SanrioCharacterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanrioCharacterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DFFADFB42DF8051B005F768F /* Exceptions for "SanrioCharacterApp" folder in "SanrioCharacterApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DFFADF902DF80519005F768F /* SanrioCharacterApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DFFADF932DF80519005F768F /* SanrioCharacterApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DFFADFB42DF8051B005F768F /* Exceptions for "SanrioCharacterApp" folder in "SanrioCharacterApp" target */,
+			);
+			path = SanrioCharacterApp;
+			sourceTree = "<group>";
+		};
+		DFFADFA52DF8051B005F768F /* SanrioCharacterAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SanrioCharacterAppTests;
+			sourceTree = "<group>";
+		};
+		DFFADFAF2DF8051B005F768F /* SanrioCharacterAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SanrioCharacterAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFFADF8E2DF80519005F768F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFADF9F2DF8051B005F768F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFADFA92DF8051B005F768F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFFADF882DF80519005F768F = {
+			isa = PBXGroup;
+			children = (
+				DFFADF932DF80519005F768F /* SanrioCharacterApp */,
+				DFFADFA52DF8051B005F768F /* SanrioCharacterAppTests */,
+				DFFADFAF2DF8051B005F768F /* SanrioCharacterAppUITests */,
+				DFFADF922DF80519005F768F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFFADF922DF80519005F768F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFFADF912DF80519005F768F /* SanrioCharacterApp.app */,
+				DFFADFA22DF8051B005F768F /* SanrioCharacterAppTests.xctest */,
+				DFFADFAC2DF8051B005F768F /* SanrioCharacterAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFFADF902DF80519005F768F /* SanrioCharacterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFADFB52DF8051B005F768F /* Build configuration list for PBXNativeTarget "SanrioCharacterApp" */;
+			buildPhases = (
+				DFFADF8D2DF80519005F768F /* Sources */,
+				DFFADF8E2DF80519005F768F /* Frameworks */,
+				DFFADF8F2DF80519005F768F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DFFADF932DF80519005F768F /* SanrioCharacterApp */,
+			);
+			name = SanrioCharacterApp;
+			packageProductDependencies = (
+			);
+			productName = SanrioCharacterApp;
+			productReference = DFFADF912DF80519005F768F /* SanrioCharacterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFFADFA12DF8051B005F768F /* SanrioCharacterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFADFBA2DF8051B005F768F /* Build configuration list for PBXNativeTarget "SanrioCharacterAppTests" */;
+			buildPhases = (
+				DFFADF9E2DF8051B005F768F /* Sources */,
+				DFFADF9F2DF8051B005F768F /* Frameworks */,
+				DFFADFA02DF8051B005F768F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFADFA42DF8051B005F768F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DFFADFA52DF8051B005F768F /* SanrioCharacterAppTests */,
+			);
+			name = SanrioCharacterAppTests;
+			packageProductDependencies = (
+			);
+			productName = SanrioCharacterAppTests;
+			productReference = DFFADFA22DF8051B005F768F /* SanrioCharacterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFFADFAB2DF8051B005F768F /* SanrioCharacterAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFADFBD2DF8051B005F768F /* Build configuration list for PBXNativeTarget "SanrioCharacterAppUITests" */;
+			buildPhases = (
+				DFFADFA82DF8051B005F768F /* Sources */,
+				DFFADFA92DF8051B005F768F /* Frameworks */,
+				DFFADFAA2DF8051B005F768F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFADFAE2DF8051B005F768F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DFFADFAF2DF8051B005F768F /* SanrioCharacterAppUITests */,
+			);
+			name = SanrioCharacterAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SanrioCharacterAppUITests;
+			productReference = DFFADFAC2DF8051B005F768F /* SanrioCharacterAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFADF892DF80519005F768F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DFFADF902DF80519005F768F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					DFFADFA12DF8051B005F768F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DFFADF902DF80519005F768F;
+					};
+					DFFADFAB2DF8051B005F768F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DFFADF902DF80519005F768F;
+					};
+				};
+			};
+			buildConfigurationList = DFFADF8C2DF80519005F768F /* Build configuration list for PBXProject "SanrioCharacterApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFFADF882DF80519005F768F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DFFADF922DF80519005F768F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFFADF902DF80519005F768F /* SanrioCharacterApp */,
+				DFFADFA12DF8051B005F768F /* SanrioCharacterAppTests */,
+				DFFADFAB2DF8051B005F768F /* SanrioCharacterAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFFADF8F2DF80519005F768F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFADFA02DF8051B005F768F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFADFAA2DF8051B005F768F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFFADF8D2DF80519005F768F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFADF9E2DF8051B005F768F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFADFA82DF8051B005F768F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFFADFA42DF8051B005F768F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFADF902DF80519005F768F /* SanrioCharacterApp */;
+			targetProxy = DFFADFA32DF8051B005F768F /* PBXContainerItemProxy */;
+		};
+		DFFADFAE2DF8051B005F768F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFADF902DF80519005F768F /* SanrioCharacterApp */;
+			targetProxy = DFFADFAD2DF8051B005F768F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFFADFB62DF8051B005F768F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SanrioCharacterApp/SanrioCharacterApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9J6RZB9A9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SanrioCharacterApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sanrio.SanrioCharacterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFFADFB72DF8051B005F768F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SanrioCharacterApp/SanrioCharacterApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9J6RZB9A9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SanrioCharacterApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sanrio.SanrioCharacterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFFADFB82DF8051B005F768F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N9J6RZB9A9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFFADFB92DF8051B005F768F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N9J6RZB9A9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFFADFBB2DF8051B005F768F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9J6RZB9A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sanrio.SanrioCharacterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanrioCharacterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SanrioCharacterApp";
+			};
+			name = Debug;
+		};
+		DFFADFBC2DF8051B005F768F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9J6RZB9A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sanrio.SanrioCharacterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanrioCharacterApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SanrioCharacterApp";
+			};
+			name = Release;
+		};
+		DFFADFBE2DF8051B005F768F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9J6RZB9A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sanrio.SanrioCharacterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SanrioCharacterApp;
+			};
+			name = Debug;
+		};
+		DFFADFBF2DF8051B005F768F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9J6RZB9A9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sanrio.SanrioCharacterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SanrioCharacterApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFFADF8C2DF80519005F768F /* Build configuration list for PBXProject "SanrioCharacterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFADFB82DF8051B005F768F /* Debug */,
+				DFFADFB92DF8051B005F768F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFADFB52DF8051B005F768F /* Build configuration list for PBXNativeTarget "SanrioCharacterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFADFB62DF8051B005F768F /* Debug */,
+				DFFADFB72DF8051B005F768F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFADFBA2DF8051B005F768F /* Build configuration list for PBXNativeTarget "SanrioCharacterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFADFBB2DF8051B005F768F /* Debug */,
+				DFFADFBC2DF8051B005F768F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFADFBD2DF8051B005F768F /* Build configuration list for PBXNativeTarget "SanrioCharacterAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFADFBE2DF8051B005F768F /* Debug */,
+				DFFADFBF2DF8051B005F768F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFADF892DF80519005F768F /* Project object */;
+}
