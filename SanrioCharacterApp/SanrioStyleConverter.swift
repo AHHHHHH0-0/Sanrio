@@ -111,7 +111,7 @@ class SanrioStyleConverter {
         let themeDecorations = selectedTheme.map { String($0) } + decorations
         
         // Add decorations around the image
-        for i in 0..<12 {
+        for _ in 0..<12 {
             let decoration = String(themeDecorations.randomElement() ?? "✨")
             let x = CGFloat.random(in: size.width * 0.05...size.width * 0.95)
             let y = CGFloat.random(in: size.height * 0.05...size.height * 0.95)
