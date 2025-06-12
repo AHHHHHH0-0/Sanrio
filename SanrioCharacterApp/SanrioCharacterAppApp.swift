@@ -2,31 +2,16 @@
 //  SanrioCharacterAppApp.swift
 //  SanrioCharacterApp
 //
-//  Created by Andrew Liu on 6/9/25.
+//  Created by Developer on 2024.
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct SanrioCharacterAppApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
     }
-}
+} 
